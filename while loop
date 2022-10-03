@@ -1,0 +1,15 @@
+                                          FINDING THE SUM OF FIRST 5 NATURAL NUMBERS USING WHILE LOOP
+                                          
+                                                      FINDING THE SUM OF FIRST 5 NATURAL NUMBERS
+                                                  
+# include <iostream>
+using namespace std;
+int main(){
+    int i =1;
+    int sum =0;
+    while(i <= 5){
+        sum += i;
+        i += 1;
+    }
+    cout<<"The sum of first 5 natural numbers is "<<sum;
+}                                                                                      
