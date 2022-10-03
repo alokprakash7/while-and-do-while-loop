@@ -1,0 +1,13 @@
+                                                    PRINTING A STATEMENT TILL THE CONDITION SATISFIES
+     
+     # include <iostream>
+using namespace std;
+int main(){
+    int input;
+    do {
+        cout<<"My name is khan"<<endl;
+        cout<<"And I am not a terrorist"<<endl;
+        cin>>input;
+        }
+        while(input!=1);
+}
